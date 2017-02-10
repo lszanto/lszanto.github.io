@@ -1,3 +1,45 @@
+* { padding: 0; margin: 0; } /* hacky non-legit reset */
+
+body {
+    background-color: #2B4B6F;
+}
+
+#wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#content_box {
+    color: #fff;
+    width: 40%;
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 72px;
+    padding-bottom: 20px;
+}
+
+ul {
+    display: table;
+    table-layout: fixed;
+    list-style: none;
+    width: 100%;
+}
+
+ul li {
+    display: table-cell;
+    text-align: center;
+    font-size: 56px;
+}
+
+ul li a {
+    color: #041D37;
+}
+
+ul li a:hover {
+    color: #133253;
 }
