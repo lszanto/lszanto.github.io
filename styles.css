@@ -13,14 +13,22 @@ body {
 
 #content_box {
     color: #fff;
-    width: 40%;
+    width: 50%;
+}
+
+h1, h4 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
     font-size: 72px;
-    padding-bottom: 20px;
+}
+
+h4 {
+   font-size: 32px;
+   color: #9FBAD8;
 }
 
 ul {
@@ -38,9 +46,9 @@ ul li {
 }
 
 ul li a {
-    color: #041D37;
+    color: #020D19;
 }
 
 ul li a:hover {
-    color: #133253;
+    color: #0F2844;
 }
