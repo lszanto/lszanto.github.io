@@ -2,33 +2,35 @@
 
 body {
     background-color: #2B4B6F;
+    font-size: 62.5%
 }
 
-#wrapper {
+main {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
 
-#content_box {
+section {
     color: #fff;
     width: 50%;
 }
 
 h1, h4 {
-    font-family: 'Montserrat', sans-serif;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 1.875rem;
 }
 
 h1 {
-    font-size: 72px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4.4rem;
 }
 
 h4 {
-   font-size: 32px;
-   color: #9FBAD8;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.4rem;
+    color: #9FBAD8;
 }
 
 ul {
@@ -42,13 +44,14 @@ ul {
 ul li {
     display: table-cell;
     text-align: center;
-    font-size: 56px;
+    font-size: 3.8rem;
 }
 
 ul li a {
     color: #020D19;
+    transition: 0.2s;
 }
 
 ul li a:hover {
-    color: #0F2844;
+    color: #9FBAD8;
 }
